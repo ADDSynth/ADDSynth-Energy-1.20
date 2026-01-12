@@ -1,0 +1,45 @@
+{
+  "parent": "addsynth_energy:recipes/root",
+  "criteria": {
+    "silicon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:silicon"
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "addsynth_energy:photovoltaic_cell"
+      }
+    },
+    "has_photovoltaic_cell": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "addsynth_energy:photovoltaic_cell"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "silicon",
+      "has_recipe",
+      "has_photovoltaic_cell"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "addsynth_energy:photovoltaic_cell"
+    ]
+  }
+}

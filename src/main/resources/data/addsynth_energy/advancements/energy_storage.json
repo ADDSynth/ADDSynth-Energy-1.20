@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "addsynth_energy:energy_storage"
+    },
+    "title": {
+      "translate": "advancements.addsynth_energy.energy_storage.title"
+    },
+    "description": {
+      "translate": "advancements.addsynth_energy.energy_storage.description"
+    }
+  },
+  "parent": "addsynth_energy:generator",
+  "criteria": {
+    "energy_storage": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "addsynth_energy:energy_storage"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "addsynth_energy:energy_storage"
+    }
+  ]
+}

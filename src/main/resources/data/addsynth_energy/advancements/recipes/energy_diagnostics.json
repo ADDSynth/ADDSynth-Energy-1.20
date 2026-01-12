@@ -1,0 +1,97 @@
+{
+  "parent": "addsynth_energy:recipes/root",
+  "criteria": {
+    "iron_plates": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:plates/iron"
+          }
+        ]
+      }
+    },
+    "energy_wire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "addsynth_energy:energy_wire"
+            ]
+          }
+        ]
+      }
+    },
+    "observer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:observer"
+            ]
+          }
+        ]
+      }
+    },
+    "power_regulator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "addsynth_energy:power_regulator"
+            ]
+          }
+        ]
+      }
+    },
+    "circuit_tier_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "addsynth_energy:circuit_tier_2"
+            ]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "addsynth_energy:universal_energy_interface"
+      }
+    },
+    "has_diagnostics": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "addsynth_energy:energy_diagnostics_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "iron_plates",
+      "energy_wire",
+      "observer",
+      "power_regulator",
+      "circuit_tier_2",
+      "has_recipe",
+      "has_diagnostics"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "addsynth_energy:energy_diagnostics_block"
+    ]
+  }
+}

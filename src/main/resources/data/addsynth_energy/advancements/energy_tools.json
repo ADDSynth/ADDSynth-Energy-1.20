@@ -1,0 +1,73 @@
+{
+  "display": {
+    "icon": {
+      "item": "addsynth_energy:energy_pickaxe",
+      "nbt": "{Energy:4800,\"Energy Capacity\":4800}"
+    },
+    "title": {
+      "translate": "advancements.addsynth_energy.energy_tools.title"
+    },
+    "description": {
+      "translate": "advancements.addsynth_energy.energy_tools.description"
+    }
+  },
+  "parent": "addsynth_energy:steel",
+  "criteria": {
+    "energy_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "addsynth_energy:energy_shovel"
+            ]
+          }
+        ]
+      }
+    },
+    "energy_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "addsynth_energy:energy_pickaxe"
+            ]
+          }
+        ]
+      }
+    },
+    "energy_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "addsynth_energy:energy_axe"
+            ]
+          }
+        ]
+      }
+    },
+    "energy_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "addsynth_energy:energy_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "energy_shovel",
+      "energy_pickaxe",
+      "energy_axe",
+      "energy_hoe"
+    ]
+  ]
+}

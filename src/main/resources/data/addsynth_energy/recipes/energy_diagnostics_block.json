@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ici",
+    "wow",
+    "iri"
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:plates/iron"
+    },
+    "w": {
+      "item": "addsynth_energy:energy_wire"
+    },
+    "o": {
+      "item": "minecraft:observer"
+    },
+    "r": {
+      "item": "addsynth_energy:power_regulator"
+    },
+    "c": {
+      "item": "addsynth_energy:circuit_tier_2"
+    }
+  },
+  "result": {
+    "item": "addsynth_energy:energy_diagnostics_block"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "parent": "addsynth_energy:recipes/root",
+  "criteria": {
+    "aluminum_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:plates/aluminum"
+          }
+        ]
+      }
+    },
+    "steel_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:plates/steel"
+          }
+        ]
+      }
+    },
+    "green_circuit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "addsynth_energy:circuit_tier_1"
+            ]
+          }
+        ]
+      }
+    },
+    "silicon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:silicon"
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "addsynth_energy:circuit_fabricator"
+      }
+    },
+    "has_circuit_fabricator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "addsynth_energy:circuit_fabricator"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "aluminum_plate",
+      "steel_plate",
+      "green_circuit",
+      "silicon",
+      "has_recipe",
+      "has_circuit_fabricator"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "addsynth_energy:circuit_fabricator",
+      "addsynth_energy:circuit_tier_1_crafting"
+    ]
+  }
+}

@@ -1,0 +1,868 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "down"},{"wire0": "0"}]},
+          {"AND": [{"side1": "true"},{"direction1": "down"},{"wire1": "0"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire0"}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "down"},{"wire0": "1"}]},
+          {"AND": [{"side1": "true"},{"direction1": "down"},{"wire1": "1"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire1"}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "down"},{"wire0": "2"}]},
+          {"AND": [{"side1": "true"},{"direction1": "down"},{"wire1": "2"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire2"}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "down"},{"wire0": "3"}]},
+          {"AND": [{"side1": "true"},{"direction1": "down"},{"wire1": "3"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire3"}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "down"},{"wire0": "4"}]},
+          {"AND": [{"side1": "true"},{"direction1": "down"},{"wire1": "4"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire4"}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "down"},{"wire0": "5"}]},
+          {"AND": [{"side1": "true"},{"direction1": "down"},{"wire1": "5"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire5"}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "down"},{"wire0": "6"}]},
+          {"AND": [{"side1": "true"},{"direction1": "down"},{"wire1": "6"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire6"}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "down"},{"wire0": "7"}]},
+          {"AND": [{"side1": "true"},{"direction1": "down"},{"wire1": "7"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire7"}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "down"},{"wire0": "8"}]},
+          {"AND": [{"side1": "true"},{"direction1": "down"},{"wire1": "8"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire8"}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "down"},{"wire0": "9"}]},
+          {"AND": [{"side1": "true"},{"direction1": "down"},{"wire1": "9"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire9"}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "down"},{"wire0": "10"}]},
+          {"AND": [{"side1": "true"},{"direction1": "down"},{"wire1": "10"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire10"}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "down"},{"wire0": "11"}]},
+          {"AND": [{"side1": "true"},{"direction1": "down"},{"wire1": "11"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire11"}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "down"},{"wire0": "12"}]},
+          {"AND": [{"side1": "true"},{"direction1": "down"},{"wire1": "12"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire12"}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "down"},{"wire0": "13"}]},
+          {"AND": [{"side1": "true"},{"direction1": "down"},{"wire1": "13"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire13"}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "down"},{"wire0": "14"}]},
+          {"AND": [{"side1": "true"},{"direction1": "down"},{"wire1": "14"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire14"}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "down"},{"wire0": "15"}]},
+          {"AND": [{"side1": "true"},{"direction1": "down"},{"wire1": "15"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire15"}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "west"},{"wire0": "0"}]},
+          {"AND": [{"side1": "true"},{"direction1": "west"},{"wire1": "0"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire0", "x": 270, "y": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "west"},{"wire0": "1"}]},
+          {"AND": [{"side1": "true"},{"direction1": "west"},{"wire1": "1"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire1", "x": 270, "y": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "west"},{"wire0": "2"}]},
+          {"AND": [{"side1": "true"},{"direction1": "west"},{"wire1": "2"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire2", "x": 270, "y": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "west"},{"wire0": "3"}]},
+          {"AND": [{"side1": "true"},{"direction1": "west"},{"wire1": "3"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire3", "x": 270, "y": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "west"},{"wire0": "4"}]},
+          {"AND": [{"side1": "true"},{"direction1": "west"},{"wire1": "4"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire4", "x": 270, "y": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "west"},{"wire0": "5"}]},
+          {"AND": [{"side1": "true"},{"direction1": "west"},{"wire1": "5"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire5", "x": 270, "y": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "west"},{"wire0": "6"}]},
+          {"AND": [{"side1": "true"},{"direction1": "west"},{"wire1": "6"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire6", "x": 270, "y": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "west"},{"wire0": "7"}]},
+          {"AND": [{"side1": "true"},{"direction1": "west"},{"wire1": "7"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire7", "x": 270, "y": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "west"},{"wire0": "8"}]},
+          {"AND": [{"side1": "true"},{"direction1": "west"},{"wire1": "8"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire8", "x": 270, "y": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "west"},{"wire0": "9"}]},
+          {"AND": [{"side1": "true"},{"direction1": "west"},{"wire1": "9"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire9", "x": 270, "y": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "west"},{"wire0": "10"}]},
+          {"AND": [{"side1": "true"},{"direction1": "west"},{"wire1": "10"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire10", "x": 270, "y": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "west"},{"wire0": "11"}]},
+          {"AND": [{"side1": "true"},{"direction1": "west"},{"wire1": "11"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire11", "x": 270, "y": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "west"},{"wire0": "12"}]},
+          {"AND": [{"side1": "true"},{"direction1": "west"},{"wire1": "12"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire12", "x": 270, "y": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "west"},{"wire0": "13"}]},
+          {"AND": [{"side1": "true"},{"direction1": "west"},{"wire1": "13"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire13", "x": 270, "y": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "west"},{"wire0": "14"}]},
+          {"AND": [{"side1": "true"},{"direction1": "west"},{"wire1": "14"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire14", "x": 270, "y": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "west"},{"wire0": "15"}]},
+          {"AND": [{"side1": "true"},{"direction1": "west"},{"wire1": "15"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire15", "x": 270, "y": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "east"},{"wire0": "0"}]},
+          {"AND": [{"side1": "true"},{"direction1": "east"},{"wire1": "0"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire0", "x": 270, "y": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "east"},{"wire0": "1"}]},
+          {"AND": [{"side1": "true"},{"direction1": "east"},{"wire1": "1"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire1", "x": 270, "y": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "east"},{"wire0": "2"}]},
+          {"AND": [{"side1": "true"},{"direction1": "east"},{"wire1": "2"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire2", "x": 270, "y": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "east"},{"wire0": "3"}]},
+          {"AND": [{"side1": "true"},{"direction1": "east"},{"wire1": "3"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire3", "x": 270, "y": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "east"},{"wire0": "4"}]},
+          {"AND": [{"side1": "true"},{"direction1": "east"},{"wire1": "4"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire4", "x": 270, "y": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "east"},{"wire0": "5"}]},
+          {"AND": [{"side1": "true"},{"direction1": "east"},{"wire1": "5"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire5", "x": 270, "y": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "east"},{"wire0": "6"}]},
+          {"AND": [{"side1": "true"},{"direction1": "east"},{"wire1": "6"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire6", "x": 270, "y": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "east"},{"wire0": "7"}]},
+          {"AND": [{"side1": "true"},{"direction1": "east"},{"wire1": "7"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire7", "x": 270, "y": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "east"},{"wire0": "8"}]},
+          {"AND": [{"side1": "true"},{"direction1": "east"},{"wire1": "8"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire8", "x": 270, "y": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "east"},{"wire0": "9"}]},
+          {"AND": [{"side1": "true"},{"direction1": "east"},{"wire1": "9"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire9", "x": 270, "y": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "east"},{"wire0": "10"}]},
+          {"AND": [{"side1": "true"},{"direction1": "east"},{"wire1": "10"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire10", "x": 270, "y": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "east"},{"wire0": "11"}]},
+          {"AND": [{"side1": "true"},{"direction1": "east"},{"wire1": "11"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire11", "x": 270, "y": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "east"},{"wire0": "12"}]},
+          {"AND": [{"side1": "true"},{"direction1": "east"},{"wire1": "12"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire12", "x": 270, "y": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "east"},{"wire0": "13"}]},
+          {"AND": [{"side1": "true"},{"direction1": "east"},{"wire1": "13"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire13", "x": 270, "y": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "east"},{"wire0": "14"}]},
+          {"AND": [{"side1": "true"},{"direction1": "east"},{"wire1": "14"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire14", "x": 270, "y": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "east"},{"wire0": "15"}]},
+          {"AND": [{"side1": "true"},{"direction1": "east"},{"wire1": "15"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire15", "x": 270, "y": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "north"},{"wire0": "0"}]},
+          {"AND": [{"side1": "true"},{"direction1": "north"},{"wire1": "0"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire0", "x": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "north"},{"wire0": "1"}]},
+          {"AND": [{"side1": "true"},{"direction1": "north"},{"wire1": "1"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire1", "x": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "north"},{"wire0": "2"}]},
+          {"AND": [{"side1": "true"},{"direction1": "north"},{"wire1": "2"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire2", "x": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "north"},{"wire0": "3"}]},
+          {"AND": [{"side1": "true"},{"direction1": "north"},{"wire1": "3"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire3", "x": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "north"},{"wire0": "4"}]},
+          {"AND": [{"side1": "true"},{"direction1": "north"},{"wire1": "4"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire4", "x": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "north"},{"wire0": "5"}]},
+          {"AND": [{"side1": "true"},{"direction1": "north"},{"wire1": "5"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire5", "x": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "north"},{"wire0": "6"}]},
+          {"AND": [{"side1": "true"},{"direction1": "north"},{"wire1": "6"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire6", "x": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "north"},{"wire0": "7"}]},
+          {"AND": [{"side1": "true"},{"direction1": "north"},{"wire1": "7"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire7", "x": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "north"},{"wire0": "8"}]},
+          {"AND": [{"side1": "true"},{"direction1": "north"},{"wire1": "8"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire8", "x": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "north"},{"wire0": "9"}]},
+          {"AND": [{"side1": "true"},{"direction1": "north"},{"wire1": "9"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire9", "x": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "north"},{"wire0": "10"}]},
+          {"AND": [{"side1": "true"},{"direction1": "north"},{"wire1": "10"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire10", "x": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "north"},{"wire0": "11"}]},
+          {"AND": [{"side1": "true"},{"direction1": "north"},{"wire1": "11"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire11", "x": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "north"},{"wire0": "12"}]},
+          {"AND": [{"side1": "true"},{"direction1": "north"},{"wire1": "12"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire12", "x": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "north"},{"wire0": "13"}]},
+          {"AND": [{"side1": "true"},{"direction1": "north"},{"wire1": "13"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire13", "x": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "north"},{"wire0": "14"}]},
+          {"AND": [{"side1": "true"},{"direction1": "north"},{"wire1": "14"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire14", "x": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "north"},{"wire0": "15"}]},
+          {"AND": [{"side1": "true"},{"direction1": "north"},{"wire1": "15"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire15", "x": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "up"},{"wire0": "0"}]},
+          {"AND": [{"side1": "true"},{"direction1": "up"},{"wire1": "0"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire0", "x": 180}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "up"},{"wire0": "1"}]},
+          {"AND": [{"side1": "true"},{"direction1": "up"},{"wire1": "1"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire1", "x": 180}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "up"},{"wire0": "2"}]},
+          {"AND": [{"side1": "true"},{"direction1": "up"},{"wire1": "2"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire2", "x": 180}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "up"},{"wire0": "3"}]},
+          {"AND": [{"side1": "true"},{"direction1": "up"},{"wire1": "3"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire3", "x": 180}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "up"},{"wire0": "4"}]},
+          {"AND": [{"side1": "true"},{"direction1": "up"},{"wire1": "4"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire4", "x": 180}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "up"},{"wire0": "5"}]},
+          {"AND": [{"side1": "true"},{"direction1": "up"},{"wire1": "5"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire5", "x": 180}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "up"},{"wire0": "6"}]},
+          {"AND": [{"side1": "true"},{"direction1": "up"},{"wire1": "6"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire6", "x": 180}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "up"},{"wire0": "7"}]},
+          {"AND": [{"side1": "true"},{"direction1": "up"},{"wire1": "7"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire7", "x": 180}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "up"},{"wire0": "8"}]},
+          {"AND": [{"side1": "true"},{"direction1": "up"},{"wire1": "8"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire8", "x": 180}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "up"},{"wire0": "9"}]},
+          {"AND": [{"side1": "true"},{"direction1": "up"},{"wire1": "9"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire9", "x": 180}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "up"},{"wire0": "10"}]},
+          {"AND": [{"side1": "true"},{"direction1": "up"},{"wire1": "10"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire10", "x": 180}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "up"},{"wire0": "11"}]},
+          {"AND": [{"side1": "true"},{"direction1": "up"},{"wire1": "11"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire11", "x": 180}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "up"},{"wire0": "12"}]},
+          {"AND": [{"side1": "true"},{"direction1": "up"},{"wire1": "12"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire12", "x": 180}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "up"},{"wire0": "13"}]},
+          {"AND": [{"side1": "true"},{"direction1": "up"},{"wire1": "13"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire13", "x": 180}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "up"},{"wire0": "14"}]},
+          {"AND": [{"side1": "true"},{"direction1": "up"},{"wire1": "14"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire14", "x": 180}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "up"},{"wire0": "15"}]},
+          {"AND": [{"side1": "true"},{"direction1": "up"},{"wire1": "15"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire15", "x": 180}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "south"},{"wire0": "0"}]},
+          {"AND": [{"side1": "true"},{"direction1": "south"},{"wire1": "0"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire0", "x": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "south"},{"wire0": "1"}]},
+          {"AND": [{"side1": "true"},{"direction1": "south"},{"wire1": "1"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire1", "x": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "south"},{"wire0": "2"}]},
+          {"AND": [{"side1": "true"},{"direction1": "south"},{"wire1": "2"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire2", "x": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "south"},{"wire0": "3"}]},
+          {"AND": [{"side1": "true"},{"direction1": "south"},{"wire1": "3"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire3", "x": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "south"},{"wire0": "4"}]},
+          {"AND": [{"side1": "true"},{"direction1": "south"},{"wire1": "4"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire4", "x": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "south"},{"wire0": "5"}]},
+          {"AND": [{"side1": "true"},{"direction1": "south"},{"wire1": "5"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire5", "x": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "south"},{"wire0": "6"}]},
+          {"AND": [{"side1": "true"},{"direction1": "south"},{"wire1": "6"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire6", "x": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "south"},{"wire0": "7"}]},
+          {"AND": [{"side1": "true"},{"direction1": "south"},{"wire1": "7"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire7", "x": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "south"},{"wire0": "8"}]},
+          {"AND": [{"side1": "true"},{"direction1": "south"},{"wire1": "8"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire8", "x": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "south"},{"wire0": "9"}]},
+          {"AND": [{"side1": "true"},{"direction1": "south"},{"wire1": "9"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire9", "x": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "south"},{"wire0": "10"}]},
+          {"AND": [{"side1": "true"},{"direction1": "south"},{"wire1": "10"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire10", "x": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "south"},{"wire0": "11"}]},
+          {"AND": [{"side1": "true"},{"direction1": "south"},{"wire1": "11"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire11", "x": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "south"},{"wire0": "12"}]},
+          {"AND": [{"side1": "true"},{"direction1": "south"},{"wire1": "12"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire12", "x": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "south"},{"wire0": "13"}]},
+          {"AND": [{"side1": "true"},{"direction1": "south"},{"wire1": "13"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire13", "x": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "south"},{"wire0": "14"}]},
+          {"AND": [{"side1": "true"},{"direction1": "south"},{"wire1": "14"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire14", "x": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"AND": [{"side0": "true"},{"direction0": "south"},{"wire0": "15"}]},
+          {"AND": [{"side1": "true"},{"direction1": "south"},{"wire1": "15"}]}
+        ]
+      },
+      "apply": {"model": "addsynth_energy:block/wire15", "x": 90}
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "addsynth_energy:block/solar_panel",
+  "textures": {
+    "solar_panel": "addsynth_energy:block/solar_panel"
+  }
+}

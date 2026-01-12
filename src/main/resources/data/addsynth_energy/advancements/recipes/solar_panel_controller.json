@@ -1,0 +1,71 @@
+{
+  "parent": "addsynth_energy:recipes/root",
+  "criteria": {
+    "silicon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:silicon"
+          }
+        ]
+      }
+    },
+    "power_regulator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "addsynth_energy:power_regulator"
+            ]
+          }
+        ]
+      }
+    },
+    "solar_panel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "addsynth_energy:solar_panel"
+            ]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "addsynth_energy:solar_panel_controller"
+      }
+    },
+    "has_solar_panel_controller": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "addsynth_energy:solar_panel_controller"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "silicon",
+      "power_regulator",
+      "solar_panel",
+      "has_recipe",
+      "has_solar_panel_controller"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "addsynth_energy:solar_panel_controller"
+    ]
+  }
+}

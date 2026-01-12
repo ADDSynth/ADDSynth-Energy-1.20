@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "rir",
+    "pgp",
+    "pcp"
+  ],
+  "key": {
+    "p": {
+      "item": "minecraft:paper"
+    },
+    "c": {
+      "tag": "minecraft:coals"
+    },
+    "g": {
+      "tag": "forge:dusts/glowstone"
+    },
+    "r": {
+      "tag": "forge:dusts/redstone"
+    },
+    "i": {
+      "tag": "forge:ingots/lead"
+    }
+  },
+  "result": {
+    "item": "addsynth_energy:battery"
+  }
+}

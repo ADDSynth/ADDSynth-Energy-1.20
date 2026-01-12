@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ggg",
+    "sss",
+    "awa"
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:glass_pane"
+    },
+    "s": {
+      "item": "addsynth_energy:photovoltaic_cell"
+    },
+    "a": {
+      "tag": "forge:plates/aluminum"
+    },
+    "w": {
+      "item": "addsynth_energy:low_voltage_wire"
+    }
+  },
+  "result": {
+    "item": "addsynth_energy:solar_panel",
+    "count": 2
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "addsynth_energy:energy_wire"
+    }
+  ],
+  "result": {
+    "item": "addsynth_energy:low_voltage_wire",
+    "count": 4
+  }
+}

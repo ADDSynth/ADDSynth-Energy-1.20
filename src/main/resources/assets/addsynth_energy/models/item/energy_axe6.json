@@ -1,0 +1,6 @@
+{
+  "parent": "addsynth_energy:item/energy_axe",
+  "textures": {
+    "layer0": "addsynth_energy:item/energy_tools/energy_axe6"
+  }
+}

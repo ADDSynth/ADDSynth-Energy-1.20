@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "addsynth_energy:item/energy_tools/energy_hoe8"
+  },
+  "overrides": [
+    {"predicate": {"addsynth_energy:energy_percentage": 0       }, "model": "addsynth_energy:item/energy_hoe0"},
+    {"predicate": {"addsynth_energy:energy_percentage": 0.000625}, "model": "addsynth_energy:item/energy_hoe1"},
+    {"predicate": {"addsynth_energy:energy_percentage": 0.125   }, "model": "addsynth_energy:item/energy_hoe2"},
+    {"predicate": {"addsynth_energy:energy_percentage": 0.25    }, "model": "addsynth_energy:item/energy_hoe3"},
+    {"predicate": {"addsynth_energy:energy_percentage": 0.375   }, "model": "addsynth_energy:item/energy_hoe4"},
+    {"predicate": {"addsynth_energy:energy_percentage": 0.5     }, "model": "addsynth_energy:item/energy_hoe5"},
+    {"predicate": {"addsynth_energy:energy_percentage": 0.625   }, "model": "addsynth_energy:item/energy_hoe6"},
+    {"predicate": {"addsynth_energy:energy_percentage": 0.75    }, "model": "addsynth_energy:item/energy_hoe7"},
+    {"predicate": {"addsynth_energy:energy_percentage": 0.875   }, "model": "addsynth_energy:item/energy_hoe8"}
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "parent": "addsynth_energy:recipes/root",
+  "criteria": {
+    "energy_wire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "addsynth_energy:energy_wire"
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "addsynth_energy:low_voltage_wire"
+      }
+    },
+    "has_low_voltage_wire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "addsynth_energy:low_voltage_wire"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "energy_wire",
+      "has_recipe",
+      "has_low_voltage_wire"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "addsynth_energy:low_voltage_wire"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "idi",
+    "wrw",
+    "iai"
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:plates/iron"
+    },
+    "w": {
+      "item": "addsynth_energy:energy_wire"
+    },
+    "d": {
+      "tag": "forge:gems/diamond"
+    },
+    "r": {
+      "item": "addsynth_energy:power_regulator"
+    },
+    "a": {
+      "item": "addsynth_energy:advanced_power_core"
+    }
+  },
+  "result": {
+    "item": "addsynth_energy:universal_energy_interface"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aga",
+    "rcr",
+    "awa"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:plates/silver"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "r": {
+      "item": "addsynth_energy:power_regulator"
+    },
+    "c": {
+      "item": "addsynth_energy:circuit_tier_3"
+    },
+    "w": {
+      "item": "addsynth_energy:energy_wire"
+    }
+  },
+  "result": {
+    "item": "addsynth_energy:solar_panel_controller"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "top":    "addsynth_energy:block/energy_diagnostics_top",
+        "side":   "addsynth_energy:block/energy_diagnostics",
+        "bottom": "addsynth_energy:block/default_machine_texture"
+    }
+}

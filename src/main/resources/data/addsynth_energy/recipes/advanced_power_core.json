@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "forge:gems/lapis"},
+    {"item": "addsynth_energy:power_core"},
+    {"tag": "forge:gems/lapis"}
+  ],
+  "result": {
+    "item": "addsynth_energy:advanced_power_core"
+  }
+}

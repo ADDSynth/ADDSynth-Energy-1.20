@@ -1,0 +1,16 @@
+{
+  "type": "addsynth_energy:circuit_fabricator",
+  "ingredients": [
+    {"tag": "forge:ingots/aluminum"},
+    {"tag": "forge:plates/iron"},
+    {"tag": "forge:dyes/white"},
+    {"item": "minecraft:comparator"},
+    {"tag": "forge:silicon"},
+    {"tag": "forge:ingots/gold"},
+    {"tag": "forge:ingots/silver"},
+    {"item": "minecraft:ender_eye"}
+  ],
+  "result": {
+    "item": "addsynth_energy:circuit_tier_8"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "addsynth_energy:universal_energy_interface"
+    },
+    "title": {
+      "translate": "advancements.addsynth_energy.universal_energy_interface.title"
+    },
+    "description": {
+      "translate": "advancements.addsynth_energy.universal_energy_interface.description"
+    }
+  },
+  "parent": "addsynth_energy:compressor",
+  "criteria": {
+    "universal_energy_interface": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "addsynth_energy:universal_energy_interface"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "addsynth_energy:universal_energy_interface"
+    }
+  ]
+}

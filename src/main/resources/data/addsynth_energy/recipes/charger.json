@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ici",
+    "wow",
+    "ipi"
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:plates/invar"
+    },
+    "c": {
+      "item": "addsynth_energy:circuit_tier_1"
+    },
+    "p": {
+      "item": "addsynth_energy:power_regulator"
+    },
+    "w": {
+      "item": "addsynth_energy:low_voltage_wire"
+    },
+    "o": {
+      "tag": "forge:ingots/copper"
+    }
+  },
+  "result": {
+    "item": "addsynth_energy:charger"
+  }
+}

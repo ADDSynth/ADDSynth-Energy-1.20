@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "addsynth_energy:generator"
+    },
+    "title": {
+      "translate": "advancements.addsynth_energy.generator.title"
+    },
+    "description": {
+      "translate": "advancements.addsynth_energy.generator.description"
+    }
+  },
+  "parent": "addsynth_energy:root",
+  "criteria": {
+    "generator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "addsynth_energy:generator"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

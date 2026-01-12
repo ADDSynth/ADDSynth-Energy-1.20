@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "item": "addsynth_energy:energy_wire"
+    },
+    "title": {
+      "translate": "advancements.addsynth_energy.root.title"
+    },
+    "description": {
+      "translate": "advancements.addsynth_energy.root.description"
+    },
+    "background": "addsynth_energy:textures/gui/advancements/stone.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "copper_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "copper",
+      "copper_ore"
+    ]
+  ]
+}

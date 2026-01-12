@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sps",
+    "c c",
+    "sas"
+  ],
+  "key": {
+    "s": {
+      "tag": "forge:ingots/steel"
+    },
+    "p": {
+      "item": "minecraft:piston"
+    },
+    "c": {
+      "item": "addsynth_energy:power_core"
+    },
+    "a": {
+      "item": "minecraft:anvil"
+    }
+  },
+  "result": {
+    "item": "addsynth_energy:compressor"
+  }
+}

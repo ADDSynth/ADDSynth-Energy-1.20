@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "se",
+    "sr",
+    " r"
+  ],
+  "key": {
+    "e": {
+      "item": "addsynth_energy:energy_tool_part"
+    },
+    "s": {
+      "tag": "forge:ingots/steel"
+    },
+    "r": {
+      "item": "addsynth_energy:steel_rod"
+    }
+  },
+  "result": {
+    "item": "addsynth_energy:energy_axe"
+  }
+}

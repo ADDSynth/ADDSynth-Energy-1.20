@@ -1,0 +1,40 @@
+version 1.0 - TBD
+NEW:
+  Low Voltage Wire item.
+  Battery item.
+  Added Solar Panels:
+   - By default each solar panel provides 0.5 energy per tick.
+   - Solar panels can only be placed on top of blocks.
+   - Since solar panels sit flat at all times, energy calculation changes during the day, with 100%
+       energy when sun is at noon, and 0% when sun is at horizon. Energy calculation follows a sine curve.
+   - Solar Panels use a hitscan to determine if line-of-sight to the sun is blocked.
+      - This can be changed in the config if it's using too much processing power.
+   - Solar Panels generate less energy if a thunderstorm is occuring.
+   - Solar Panels (by default) get dirty over time, which lowers the power generated. Clean solar panels
+       by washing with water, or waiting until it rains.
+   - Solar Panels do not connect to Energy Wire directly, there must be a Solar Panel Controller adjacent
+       to a Solar Panel.
+   - Right-clicking the Solar Panel Controller will give you detailed info about the solar array.
+  Charger machine, which can charge batteries and items (and probably items from other mods.)
+  Energy tools, which need to be charged to function.
+   - Same mining level and number of uses as Diamond tools.
+   - Same speed and attack strength as Iron tools.
+CHANGED:
+  Another Energy Rewrite:
+   - Energy networks will now prioritize 'free' energy sources, such as Solar Panels.
+   - The Generator will now 'use' energy every tick since it's supposed to be burning fuel.
+   - Batteries will no longer balance their energy by default, but this can be changed in the config.
+   - The Universal Energy Interface is now much more customizable.
+     - Reintroduced the 'Internal' and 'External' transfer modes that were lost since version 1.3.1.
+  The Generator now has a constant extract rate of 5 energy per tick regardless of the item being consumed.
+FIXED:
+  Machines will now immediately update their data if it was changed in the config. Previously they
+    would only update if you removed the machine and placed it back down again.
+  Fix Passive Machines (Plasma Generator and Crystal Matter Generator) continuing to accept energy even though
+    the output was full.
+  Passive Machines can now have their output items be extracted using a Hopper.
+  The Electric Furance now adjusts work time based on the cooking time of the item being smelted.
+
+
+
+For older version history, please see Overpowered Technology changelog before version 6.

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "addsynth_materials:steel_ingot"
+    },
+    "title": {
+      "translate": "advancements.addsynth_energy.steel.title"
+    },
+    "description": {
+      "translate": "advancements.addsynth_energy.steel.description"
+    }
+  },
+  "parent": "addsynth_energy:generator",
+  "criteria": {
+    "generator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ingots/steel"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "parent": "addsynth_energy:recipes/root",
+  "criteria": {
+    "silicon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:silicon"
+          }
+        ]
+      }
+    },
+    "photovoltaic_cell": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "addsynth_energy:photovoltaic_cell"
+            ]
+          }
+        ]
+      }
+    },
+    "low_voltage_wire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "addsynth_energy:low_voltage_wire"
+            ]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "addsynth_energy:solar_panel"
+      }
+    },
+    "has_solar_panel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "addsynth_energy:solar_panel"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "silicon",
+      "photovoltaic_cell",
+      "low_voltage_wire",
+      "has_recipe",
+      "has_solar_panel"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "addsynth_energy:solar_panel"
+    ]
+  }
+}

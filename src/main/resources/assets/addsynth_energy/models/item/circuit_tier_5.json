@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "addsynth_energy:item/circuits/circuit_tier_5_inventory"
+  }
+}
