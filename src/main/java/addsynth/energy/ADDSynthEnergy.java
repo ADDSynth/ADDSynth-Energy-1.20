@@ -1,6 +1,5 @@
 package addsynth.energy;
 
-import java.io.File;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import addsynth.core.compat.Compatibility;
@@ -33,7 +32,6 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.fml.loading.FMLPaths;
 
 @Mod(value = ADDSynthEnergy.MOD_ID)
 public class ADDSynthEnergy {
@@ -61,7 +59,6 @@ public class ADDSynthEnergy {
   }
 
   private static final void init_config(final ModLoadingContext context){
-    new File(FMLPaths.CONFIGDIR.get().toString(), MOD_NAME).mkdir();
     Game.registerConfig(context, Config::new, MOD_NAME, "main.toml");
   }
 
