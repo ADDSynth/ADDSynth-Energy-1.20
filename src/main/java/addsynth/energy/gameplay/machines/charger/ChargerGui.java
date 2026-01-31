@@ -17,7 +17,7 @@ public final class ChargerGui extends GuiEnergyBase<TileCharger, ChargerContaine
     draw_title(graphics);
     //draw_energy_usage(graphics);
     draw_status(graphics, tile, 17);
-    draw_time_left_center(graphics, 76, tile);
+    draw_time_left_center(graphics, tile, 76);
   }
 
 }

@@ -134,14 +134,19 @@ public abstract class GuiEnergyBase<T extends BlockEntity & IEnergyUser, C exten
     draw_text_left(graphics, EnergyText.status_text.get().append(machine.getStatus()), 6, 37);
   }
 
-  /** Draws machine time left at the bottom-left corner of the gui. */
-  protected void draw_time_left(GuiGraphics graphics, final int draw_y, final TileAbstractMachine machine){
+  /** Draws machine time left horizontally centered at the Y level you specify. */
+  protected void draw_time_left(GuiGraphics graphics, final TileAbstractMachine machine, final int draw_y){
     draw_text_left(graphics, EnergyText.time_left_text.getString()+": "+MinecraftTime.print(machine.getTimeLeft()), 6, draw_y);
   }
 
-  /** Draws machine time left at the bottom-center of the gui. */
-  protected void draw_time_left_center(GuiGraphics graphics, final int draw_y, final TileAbstractMachine machine){
+  /** Draws machine time left horizontally centered at the Y level you specify. */
+  protected void draw_time_left_center(GuiGraphics graphics, final TileAbstractMachine machine, final int draw_y){
     draw_text_center(graphics, EnergyText.time_left_text.getString()+": "+MinecraftTime.print(machine.getTimeLeft()), imageWidth/2, draw_y);
+  }
+
+  /** Draws machine time left center-aligned at the coordinates you specify. */
+  protected void draw_time_left_center(GuiGraphics graphics, final TileAbstractMachine machine, final int draw_x, final int draw_y){
+    draw_text_center(graphics, EnergyText.time_left_text.getString()+": "+MinecraftTime.print(machine.getTimeLeft()), draw_x, draw_y);
   }
 
   /** Draws charge time at bottom-left of gui. */

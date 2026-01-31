@@ -28,7 +28,7 @@ public final class GuiCompressor extends GuiEnergyBase<TileCompressor, Container
     draw_status(graphics, tile);
     graphics.renderItem(tile.getWorkingInventory().getStackInSlot(0), 80, 42);
     draw_text_center(graphics, work_progress_bar.getWorkTimeProgress(), 67);
-    draw_time_left_center(graphics, 88, tile);
+    draw_time_left_center(graphics, tile, 88);
   }
 
 }

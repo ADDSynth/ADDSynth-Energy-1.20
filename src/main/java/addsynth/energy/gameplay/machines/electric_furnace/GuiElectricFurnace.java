@@ -29,7 +29,7 @@ public final class GuiElectricFurnace extends GuiEnergyBase<TileElectricFurnace,
     draw_status(graphics, tile);
     graphics.renderItem(tile.getWorkingInventory().getStackInSlot(0), 80, 40);
     draw_text_center(graphics, work_progress_bar.getWorkTimeProgress(), center_x + 21, 65);
-    draw_time_left_center(graphics, 78, tile);
+    draw_time_left_center(graphics, tile, 78);
   }
 
 }
