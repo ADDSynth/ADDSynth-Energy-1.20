@@ -97,6 +97,8 @@
 "gui.addsynth_energy.machine_type.receiver": "RECEIVER",
 "gui.addsynth_energy.machine_type.battery": "BATTERY",
 "gui.addsynth_energy.machine_type.custom": "CUSTOM",
+"gui.addsynth_energy.circuit_fabricator.insert": "Insert",
+"gui.addsynth_energy.circuit_fabricator.take": "Take",
 "gui.addsynth_energy.solar_panel.status": "Status:",
 "gui.addsynth_energy.solar_panel.energy": "Energy:",
 "gui.addsynth_energy.solar_panel.phase": "Phase:",

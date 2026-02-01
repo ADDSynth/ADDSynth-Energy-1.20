@@ -3,6 +3,7 @@ package addsynth.energy.gameplay;
 import addsynth.core.util.network.ADDSynthNetworkHandler;
 import addsynth.energy.ADDSynthEnergy;
 import addsynth.energy.gameplay.machines.circuit_fabricator.ChangeCircuitFabricatorRecipe;
+import addsynth.energy.gameplay.machines.circuit_fabricator.CircuitFabricatorButtonMessage;
 import addsynth.energy.gameplay.machines.energy_diagnostics.EnergyDiagnosticsMessage;
 import addsynth.energy.gameplay.machines.solar_panel.SolarPanelData;
 import addsynth.energy.gameplay.machines.universal_energy_interface.SetTransferSettings;
@@ -23,6 +24,7 @@ public final class NetworkHandler extends ADDSynthNetworkHandler {
     registerClientMessage( 5, INSTANCE, SolarPanelData.class,                SolarPanelData::new);
     registerServerMessage( 6, INSTANCE, ToggleTransferSetting.class,         ToggleTransferSetting::new);
     registerClientMessage( 7, INSTANCE, UpdateClientMachineStatusMessage.class, UpdateClientMachineStatusMessage::new);
+    registerServerMessage( 8, INSTANCE, CircuitFabricatorButtonMessage.class, CircuitFabricatorButtonMessage::new);
   }
 
 }

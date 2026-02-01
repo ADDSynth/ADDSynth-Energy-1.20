@@ -1,7 +1,6 @@
 package addsynth.energy.gameplay.machines.circuit_fabricator;
 
 import addsynth.core.container.TileEntityContainer;
-import addsynth.core.container.slots.InputSlot;
 import addsynth.core.container.slots.OutputSlot;
 import addsynth.energy.registers.Containers;
 import net.minecraft.network.FriendlyByteBuf;
@@ -20,16 +19,9 @@ public final class CircuitFabricatorContainer extends TileEntityContainer<TileCi
   }
 
   private final void common_setup(final Inventory player_inventory){
-    make_player_inventory(player_inventory, 87, 157);
-    addSlot(new  InputSlot(tile, 0, 162, 76));
-    addSlot(new  InputSlot(tile, 1, 180, 76));
-    addSlot(new  InputSlot(tile, 2, 198, 76));
-    addSlot(new  InputSlot(tile, 3, 216, 76));
-    addSlot(new  InputSlot(tile, 4, 162, 94));
-    addSlot(new  InputSlot(tile, 5, 180, 94));
-    addSlot(new  InputSlot(tile, 6, 198, 94));
-    addSlot(new  InputSlot(tile, 7, 216, 94));
-    addSlot(new OutputSlot(tile, 0, 268, 85));
+    make_player_inventory(player_inventory, 169, 157);
+    addInputSlots(tile, 0, 177, 56, 8, 1);
+    addSlot(new OutputSlot(tile, 0, 292, 91));
   }
 
 }

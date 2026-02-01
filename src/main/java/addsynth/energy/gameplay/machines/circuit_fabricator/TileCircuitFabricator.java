@@ -2,6 +2,7 @@ package addsynth.energy.gameplay.machines.circuit_fabricator;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
+import addsynth.core.game.inventory.InventoryUtil;
 import addsynth.core.game.inventory.filter.RecipeFilter;
 import addsynth.core.util.game.data.NBTUtil;
 import addsynth.energy.ADDSynthEnergy;
@@ -83,6 +84,15 @@ public final class TileCircuitFabricator extends TileStandardWorkMachine impleme
 
   public final ItemStack getRecipeOutput(){
     return new ItemStack(ForgeRegistries.ITEMS.getValue(output_itemStack));
+  }
+
+  public final void insertItems(final Inventory player_inventory){
+    InventoryUtil.transfer(player_inventory, inventory.getInputInventory());
+  }
+  
+  public final void takeItems(final Inventory player_inventory){
+    InventoryUtil.transfer(inventory.getInputInventory(), player_inventory);
+    InventoryUtil.transfer(inventory.getOutputInventory(), player_inventory);
   }
 
   @Override
