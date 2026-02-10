@@ -13,7 +13,7 @@
       "tag": "forge:ingots/steel"
     },
     "r": {
-      "item": "addsynth_energy:steel_rod"
+      "tag": "forge:rods/steel"
     }
   },
   "result": {
