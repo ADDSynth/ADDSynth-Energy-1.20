@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "ici",
+    "tct",
     "wow",
-    "ipi"
+    "tpt"
   ],
   "key": {
-    "i": {
-      "tag": "forge:plates/invar"
+    "t": {
+      "tag": "forge:plates/tin"
     },
     "c": {
       "item": "addsynth_energy:circuit_tier_1"

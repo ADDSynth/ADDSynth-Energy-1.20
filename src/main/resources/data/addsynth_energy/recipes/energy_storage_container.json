@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "gwg",
-    "wew",
+    "bbb",
     "gwg"
   ],
   "key": {
@@ -12,8 +12,8 @@
     "w": {
       "item": "addsynth_energy:energy_wire"
     },
-    "e": {
-      "tag": "forge:storage_blocks/redstone"
+    "b": {
+      "item": "addsynth_energy:battery"
     }
   },
   "result": {
