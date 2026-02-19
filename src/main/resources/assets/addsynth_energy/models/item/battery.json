@@ -1,6 +1,13 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "addsynth_energy:item/battery"
-  }
+    "layer0": "addsynth_energy:item/battery/battery4"
+  },
+  "overrides": [
+    {"predicate": {"addsynth_energy:energy_percentage": 0    }, "model": "addsynth_energy:item/battery0"},
+    {"predicate": {"addsynth_energy:energy_percentage": 0.125}, "model": "addsynth_energy:item/battery1"},
+    {"predicate": {"addsynth_energy:energy_percentage": 0.375}, "model": "addsynth_energy:item/battery2"},
+    {"predicate": {"addsynth_energy:energy_percentage": 0.625}, "model": "addsynth_energy:item/battery3"},
+    {"predicate": {"addsynth_energy:energy_percentage": 0.875}, "model": "addsynth_energy:item/battery4"}
+  ]
 }
