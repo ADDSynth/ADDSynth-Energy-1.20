@@ -39,7 +39,7 @@ public class ItemEnergy implements IEnergyStorage {
     if(!tag.contains(ENERGY_LABEL)){
       tag.putInt(ENERGY_LABEL, max_energy);
     }
-    if(!tag.contains(CAPACITY_LABEL, max_energy)){
+    if(!tag.contains(CAPACITY_LABEL)){
       tag.putInt(CAPACITY_LABEL, max_energy);
     }
     itemstack.setTag(tag);

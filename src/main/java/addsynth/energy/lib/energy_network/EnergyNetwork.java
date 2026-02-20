@@ -46,7 +46,6 @@ public final class EnergyNetwork extends BlockNetwork<AbstractEnergyNetworkTile>
   // energy networks, the whole thing should be a single energy network, which means our search algorithm
   // must 'pass through' the machine. But I still consider two machines adjacent to each other but NOT
   // connected by wire, to be NOT be connected, and thus be two separate energy networks.
-  // I can't believe ChatGPT (or specifically Copilot using GPT-5) actually solved my issue.
   // An energy network MUST consist of all machines connected, but FAIL if going from machine to machine.
   /** This is the primary method that determines if a Node gets added to the Energy Network. */
   private static final boolean canNavigate(@Nullable final BlockEntityNode previous_node, final BlockEntityNode current_node){
@@ -101,13 +100,11 @@ public final class EnergyNetwork extends BlockNetwork<AbstractEnergyNetworkTile>
       if(previous != null){
         @Nullable BlockEntity previous_tile = previous.getTile();
         if(previous_tile != null){
-          final boolean previous_is_machine = isMachine(previous_tile); // || previous_tile instanceof AbstractBlockNetworkMachine;
-          final boolean previous_is_battery = isBattery(previous_tile);
-          final boolean     tile_is_machine = isMachine(         tile); // ||          tile instanceof AbstractBlockNetworkMachine;
-          final boolean     tile_is_battery = isBattery(         tile);
+          final boolean previous_is_machine = isMachine(previous_tile);
+          final boolean     tile_is_machine = isMachine(         tile);
           if(previous_is_machine && tile_is_machine){ return; }
-          if(previous_is_battery && tile_is_machine){ return; }
-          if(previous_is_machine && tile_is_battery){ return; }
+          if(    tile_is_machine && isBattery(previous_tile)){ return; }
+          if(previous_is_machine && isBattery(         tile)){ return; }
         }
       }
       // Add new machine
