@@ -28,20 +28,16 @@ public final class OnOffSwitch<T extends BlockEntity & ISwitchableMachine> exten
   private static final Component off_text = Component.translatable("gui.addsynth_energy.switch.off");
   private static final Component null_state = Component.literal("[null]");
 
-  /* DELETE: Old On/Off Switch constructor. Delete in 2027
-   * Call with guiLeft + standard x = 6 and guiTop + standard y = 17.
-   * @param x
-   * @param y
-   * @param tile
-   *
-  public OnOffSwitch(final int x, final int y, final T tile){
-    super(x, y, 34, 16, new TextComponent(""));
-    this.tile = tile;
-  }
-  */
-
   public OnOffSwitch(final AbstractContainerScreen container, final T tile){
-    super(container.getGuiLeft() + 6, container.getGuiTop() + 17, 40, 16, null_state);
+    this(container, tile, 6, 17);
+  }
+
+  public OnOffSwitch(final AbstractContainerScreen container, final T tile, final int y){
+    this(container, tile, 6, y);
+  }
+
+  public OnOffSwitch(final AbstractContainerScreen container, final T tile, final int x, final int y){
+    super(container.getGuiLeft() + x, container.getGuiTop() + y, 40, 16, null_state);
     this.tile = tile;
     if(tile != null){
       power_state = tile.get_switch_state();
